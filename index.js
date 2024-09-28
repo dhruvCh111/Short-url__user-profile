@@ -11,7 +11,7 @@ const urlRoute=require("./routes/url");
 const userRoute=require("./routes/user")
 
 const app=express();
-const port=8001;
+const port=8002;
 
 connectToMongoDB("mongodb+srv://8477073843dk:7mibhbHXMx3FqWUK@project.alssd.mongodb.net/?retryWrites=true&w=majority&appName=project")
 .then(()=>console.log("MongoDB connection established")

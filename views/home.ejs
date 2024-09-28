@@ -30,15 +30,15 @@
     <h1>URL Shortner</h1>
     <!-- local is holding data coming from backend  -->
     <% if (locals.id) { %> 
-        <P>URL Generated:http://localhost:8001/url/<%= id  %> 
+        <P>URL Generated:https://urlsharpner.vercel.app/url/<%= id  %> 
         </P>
         <p style="font-family:bold">Click on Link to redirect to website.
         </p>
-        <a href="http://localhost:8001/url/<%= id %>">
+        <a href="https://urlsharpner.vercel.app/url/<%= id %>">
             <button style="background-color:rgb(6, 142, 188)">Link</button>
          </a>
          <p style="font-family:bold">Home Page and Analytics table of user </p>
-      <a href="http://localhost:8001">
+      <a href="https://urlsharpner.vercel.app/">
         <button style="background-color:rgb(6, 142, 188)">Home</button>
      </a>
     <% } %>

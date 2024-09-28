@@ -14,7 +14,7 @@ const app=express();
 const port=8001;
 
 connectToMongoDB("mongodb+srv://8477073843dk:7mibhbHXMx3FqWUK@project.alssd.mongodb.net/?retryWrites=true&w=majority&appName=project")
-.then(()=>console.log("MongoDB connected")
+.then(()=>console.log("MongoDB connection established")
 );
 
 app.set("view engine","ejs");//for server side rendering 
